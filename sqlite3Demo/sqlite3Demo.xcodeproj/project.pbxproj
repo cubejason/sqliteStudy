@@ -15,6 +15,8 @@
 		443C7BAE1D8010EC00C86891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443C7BAC1D8010EC00C86891 /* LaunchScreen.storyboard */; };
 		443C7BB91D8010EC00C86891 /* sqlite3DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BB81D8010EC00C86891 /* sqlite3DemoTests.m */; };
 		443C7BC41D8010EC00C86891 /* sqlite3DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BC31D8010EC00C86891 /* sqlite3DemoUITests.m */; };
+		443C7BD31D8018AA00C86891 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BD21D8018AA00C86891 /* person.m */; };
+		443C7BD61D8018E300C86891 /* animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BD51D8018E300C86891 /* animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		443C7BBF1D8010EC00C86891 /* sqlite3DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sqlite3DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443C7BC31D8010EC00C86891 /* sqlite3DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sqlite3DemoUITests.m; sourceTree = "<group>"; };
 		443C7BC51D8010EC00C86891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443C7BD11D8018AA00C86891 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		443C7BD21D8018AA00C86891 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
+		443C7BD41D8018E300C86891 /* animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animal.h; sourceTree = "<group>"; };
+		443C7BD51D8018E300C86891 /* animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				443C7BAC1D8010EC00C86891 /* LaunchScreen.storyboard */,
 				443C7BAF1D8010EC00C86891 /* Info.plist */,
 				443C7B9E1D8010EC00C86891 /* Supporting Files */,
+				443C7BD11D8018AA00C86891 /* person.h */,
+				443C7BD21D8018AA00C86891 /* person.m */,
+				443C7BD41D8018E300C86891 /* animal.h */,
+				443C7BD51D8018E300C86891 /* animal.m */,
 			);
 			path = sqlite3Demo;
 			sourceTree = "<group>";
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				443C7BA61D8010EC00C86891 /* ViewController.m in Sources */,
+				443C7BD61D8018E300C86891 /* animal.m in Sources */,
 				443C7BA31D8010EC00C86891 /* AppDelegate.m in Sources */,
+				443C7BD31D8018AA00C86891 /* person.m in Sources */,
 				443C7BA01D8010EC00C86891 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				443C7BCA1D8010EC00C86891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		443C7BCB1D8010EC00C86891 /* Build configuration list for PBXNativeTarget "sqlite3DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				443C7BCD1D8010EC00C86891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		443C7BCE1D8010EC00C86891 /* Build configuration list for PBXNativeTarget "sqlite3DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				443C7BD01D8010EC00C86891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
