@@ -10,8 +10,10 @@
 
 @interface animal : NSObject
 
+@property(copy,nonatomic)NSString *animalID;
+@property(copy,nonatomic)NSString *name;
 @property(assign,nonatomic)int price;
 @property(copy,nonatomic)NSString *type;
-@property(copy,nonatomic)NSString *characteristic;
+@property(copy,nonatomic)NSString *color;
 
 @end

@@ -17,6 +17,10 @@
 		443C7BC41D8010EC00C86891 /* sqlite3DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BC31D8010EC00C86891 /* sqlite3DemoUITests.m */; };
 		443C7BD31D8018AA00C86891 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BD21D8018AA00C86891 /* person.m */; };
 		443C7BD61D8018E300C86891 /* animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C7BD51D8018E300C86891 /* animal.m */; };
+		446CD9921D816CEE004DC546 /* Databace.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CD9911D816CEE004DC546 /* Databace.m */; };
+		446CD9941D816E16004DC546 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 446CD9931D816E16004DC546 /* libsqlite3.0.tbd */; };
+		446CD9961D816E1E004DC546 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 446CD9951D816E1E004DC546 /* libsqlite3.tbd */; };
+		446CD99A1D816F33004DC546 /* DataBace.m in Sources */ = {isa = PBXBuildFile; fileRef = 446CD9991D816F33004DC546 /* DataBace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,12 @@
 		443C7BD21D8018AA00C86891 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 		443C7BD41D8018E300C86891 /* animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animal.h; sourceTree = "<group>"; };
 		443C7BD51D8018E300C86891 /* animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = animal.m; sourceTree = "<group>"; };
+		446CD9901D816CEE004DC546 /* Databace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Databace.h; sourceTree = "<group>"; };
+		446CD9911D816CEE004DC546 /* Databace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Databace.m; sourceTree = "<group>"; };
+		446CD9931D816E16004DC546 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		446CD9951D816E1E004DC546 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		446CD9981D816F33004DC546 /* DataBace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataBace.h; path = "../../../team/ios/FK116/ iHome-FK/iHome/Controller/ElectricalStatistics/DataBace.h"; sourceTree = "<group>"; };
+		446CD9991D816F33004DC546 /* DataBace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataBace.m; path = "../../../team/ios/FK116/ iHome-FK/iHome/Controller/ElectricalStatistics/DataBace.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446CD9961D816E1E004DC546 /* libsqlite3.tbd in Frameworks */,
+				446CD9941D816E16004DC546 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				443C7B9D1D8010EC00C86891 /* sqlite3Demo */,
+				446CD9971D816E50004DC546 /* framwork */,
 				443C7BB71D8010EC00C86891 /* sqlite3DemoTests */,
 				443C7BC21D8010EC00C86891 /* sqlite3DemoUITests */,
 				443C7B9C1D8010EC00C86891 /* Products */,
@@ -120,6 +133,10 @@
 				443C7BD21D8018AA00C86891 /* person.m */,
 				443C7BD41D8018E300C86891 /* animal.h */,
 				443C7BD51D8018E300C86891 /* animal.m */,
+				446CD9901D816CEE004DC546 /* Databace.h */,
+				446CD9911D816CEE004DC546 /* Databace.m */,
+				446CD9981D816F33004DC546 /* DataBace.h */,
+				446CD9991D816F33004DC546 /* DataBace.m */,
 			);
 			path = sqlite3Demo;
 			sourceTree = "<group>";
@@ -148,6 +165,15 @@
 				443C7BC51D8010EC00C86891 /* Info.plist */,
 			);
 			path = sqlite3DemoUITests;
+			sourceTree = "<group>";
+		};
+		446CD9971D816E50004DC546 /* framwork */ = {
+			isa = PBXGroup;
+			children = (
+				446CD9951D816E1E004DC546 /* libsqlite3.tbd */,
+				446CD9931D816E16004DC546 /* libsqlite3.0.tbd */,
+			);
+			name = framwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446CD99A1D816F33004DC546 /* DataBace.m in Sources */,
+				446CD9921D816CEE004DC546 /* Databace.m in Sources */,
 				443C7BA61D8010EC00C86891 /* ViewController.m in Sources */,
 				443C7BD61D8018E300C86891 /* animal.m in Sources */,
 				443C7BA31D8010EC00C86891 /* AppDelegate.m in Sources */,

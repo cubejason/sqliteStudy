@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F5D57A1E06FE3B680CE41690223DB2DA56F6376",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "996012d4-813c-426d-a575-addbc7d4fd49++4393" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F5D57A1E06FE3B680CE41690223DB2DA56F6376" : 0,
+    "996012d4-813c-426d-a575-addbc7d4fd49++4393" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E58B591B-BB28-4B13-8896-6A4AA1BCBB46",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F5D57A1E06FE3B680CE41690223DB2DA56F6376" : "sqliteStudy\/",
+    "996012d4-813c-426d-a575-addbc7d4fd49++4393" : "team\/ios\/FK116\/%20iHome-FK\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sqlite3Demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sqlite3Demo\/sqlite3Demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.10\/svn\/wisdomant",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "996012d4-813c-426d-a575-addbc7d4fd49++4393"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cubejason\/sqliteStudy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F5D57A1E06FE3B680CE41690223DB2DA56F6376"
+    }
+  ]
+}
